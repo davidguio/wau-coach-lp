@@ -1,12 +1,14 @@
 "use client";
 
+import { Linkedin } from "lucide-react";
+
 export default function ClaudiaPortfolio() {
   return (
     <div className="min-h-screen bg-black text-white font-sans">
       {/* Hero Section */}
       <section className="relative flex flex-col items-center justify-center text-center px-6 py-24 bg-gradient-to-b from-emerald-900/40 to-black">
         <img
-          src="/claudia.jpg" // pon aquí la foto de Claudia en /public/claudia.jpg
+          src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=160&h=160&q=80" // reemplaza con la foto real de Claudia cuando esté disponible
           alt="Claudia Mateus"
           className="w-40 h-40 rounded-full object-cover mb-6 border-4 border-emerald-400 shadow-lg"
         />
@@ -14,7 +16,7 @@ export default function ClaudiaPortfolio() {
           Claudia Mateus
         </h1>
         <p className="text-lg md:text-xl text-gray-300 max-w-xl">
-          Coach Holística | AI & Mental Well-being | Ventas B2B
+          Coach Holística | IA & Bienestar Mental | Ventas B2B
         </p>
       </section>
 
@@ -65,12 +67,22 @@ export default function ClaudiaPortfolio() {
         <p className="text-gray-400 mb-6">
           Si buscas transformar tu vida o potenciar el bienestar en tu organización, contáctame:
         </p>
-        <a
-          href="mailto:claudia@wau.ai"
-          className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-semibold shadow-lg hover:scale-105 transition"
-        >
-          Escríbeme
-        </a>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a
+            href="mailto:claudia@wau.ai"
+            className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-semibold shadow-lg hover:scale-105 transition"
+          >
+            Escríbeme
+          </a>
+          <a
+            href="https://www.linkedin.com/in/claudia-mateus-fandi%C3%B1o-9322a438/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-emerald-400 text-emerald-300 hover:bg-emerald-400 hover:text-black transition"
+          >
+            <Linkedin className="w-5 h-5" /> LinkedIn
+          </a>
+        </div>
       </section>
     </div>
   );
