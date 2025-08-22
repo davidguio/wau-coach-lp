@@ -8,7 +8,7 @@ export default function ClaudiaPortfolio() {
       {/* Hero Section */}
       <section className="relative flex flex-col items-center justify-center text-center px-6 py-24 bg-gradient-to-b from-emerald-900/40 to-black">
         <img
-          src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=160&h=160&q=80" // reemplaza con la foto real de Claudia cuando esté disponible
+          src="https://res.cloudinary.com/dadp1865s/image/upload/v1755841682/1736639158428_fa9yay.jpg?auto=format&fit=crop&w=160&h=160&q=80" // reemplaza con la foto real de Claudia cuando esté disponible
           alt="Claudia Mateus"
           className="w-40 h-40 rounded-full object-cover mb-6 border-4 border-emerald-400 shadow-lg"
         />
