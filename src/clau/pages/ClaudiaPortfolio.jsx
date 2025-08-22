@@ -69,7 +69,7 @@ export default function ClaudiaPortfolio() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="mailto:claudia@wau.ai"
+            href="mailto:claumateus@wau.ai"
             className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-semibold shadow-lg hover:scale-105 transition"
           >
             Escríbeme
