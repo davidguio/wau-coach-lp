@@ -314,7 +314,7 @@ export default function WauCoachLanding() {
             <a href="#faq" className="hover:text-white transition-colors">FAQ</a>
           </div>
           <div className="flex items-center gap-2">
-            <a href="#download" className="hidden sm:inline-flex"><Button variant="secondary" className="bg-white/10 hover:bg-white/20 text-white border border-white/10">Descargar</Button></a>
+            <a href="#download" className="hidden sm:inline-flex"><Button variant="secondary" className="bg-white/10 hover:bg-white/20 text-white border border-white/10">Encuentra un coach</Button></a>
           </div>
         </div>
       </nav>
@@ -524,7 +524,7 @@ export default function WauCoachLanding() {
           <div className="text-sm text-slate-400 flex flex-wrap gap-6">
             <a className="hover:text-white" href="#features">Características</a>
             <a className="hover:text-white" href="#how">Cómo funciona</a>
-            <a className="hover:text-white" href="#download">Descargar</a>
+            <a className="hover:text-white" href="#download">Encuentra un coach</a>
             <a className="hover:text-white" href="#faq">FAQ</a>
           </div>
           <div className="text-xs text-slate-500">© {new Date().getFullYear()} Wau Coach. Todos los derechos reservados.</div>
