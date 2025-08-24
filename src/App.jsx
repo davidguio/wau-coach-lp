@@ -344,9 +344,26 @@ export default function WauCoachLanding() {
                 <motion.a ref={ctaRef} style={{ translateX: transformX, translateY: transformY }} href="#download" className="group inline-flex items-center gap-2 rounded-2xl px-6 py-3 text-slate-900 font-semibold bg-gradient-to-r from-white to-white/90 shadow-[0_10px_40px_-10px_rgba(255,255,255,.6)]">
                   Empieza gratis <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5"/>
                 </motion.a>
-                <a href="#video" className="inline-flex items-center gap-2 rounded-2xl px-5 py-3 border border-white/15 bg-white/5 hover:bg-white/10">
+                <a href="#cldFrame" className="inline-flex items-center gap-2 rounded-2xl px-5 py-3 border border-white/15 bg-white/5 hover:bg-white/10">
                   <PlayCircle className="h-5 w-5"/> Ver demo
                 </a>
+<div id="videoModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="overlay" data-close></div>
+  <div class="dialog" role="document" aria-label="Video">
+    <button class="close" type="button" aria-label="Cerrar" data-close>&times;</button>
+    <div class="frame">
+      <iframe
+        id="cldFrame"
+        src="https://player.cloudinary.com/embed/?cloud_name=dadp1865s&public_id=InitialVideo_cjq8fe&profile=cld-default"
+        width="640"
+        height="360"
+        allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+        allowfullscreen
+        frameborder="0"
+      ></iframe>
+    </div>
+  </div>
+</div>
               </div>
 
               {/* Trust badges */}
