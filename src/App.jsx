@@ -314,7 +314,7 @@ export default function WauCoachLanding() {
             <a href="#faq" className="hover:text-white transition-colors">FAQ</a>
           </div>
           <div className="flex items-center gap-2">
-            <a href="#download" className="hidden sm:inline-flex"><Button variant="secondary" className="bg-white/10 hover:bg-white/20 text-white border border-white/10">Encuentra un coach</Button></a>
+            <a href="https://coach.wau.ai/onboarding" className="hidden sm:inline-flex"><Button variant="secondary" className="bg-white/10 hover:bg-white/20 text-white border border-white/10">Encuentra un coach</Button></a>
           </div>
         </div>
       </nav>
