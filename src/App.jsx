@@ -341,8 +341,8 @@ export default function WauCoachLanding() {
 
               {/* CTAs */}
               <div className="mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                <motion.a ref={ctaRef} style={{ translateX: transformX, translateY: transformY }} href="#download" className="group inline-flex items-center gap-2 rounded-2xl px-6 py-3 text-slate-900 font-semibold bg-gradient-to-r from-white to-white/90 shadow-[0_10px_40px_-10px_rgba(255,255,255,.6)]">
-                  Empieza gratis <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5"/>
+                <motion.a ref={ctaRef} style={{ translateX: transformX, translateY: transformY }} href="https://coach.wau.ai/onboarding" className="group inline-flex items-center gap-2 rounded-2xl px-6 py-3 text-slate-900 font-semibold bg-gradient-to-r from-white to-white/90 shadow-[0_10px_40px_-10px_rgba(255,255,255,.6)]">
+                  Encuentra tu Coach <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5"/>
                 </motion.a>
             
 
@@ -453,19 +453,7 @@ export default function WauCoachLanding() {
       {/* DOWNLOAD */}
       <Section id="download" className="py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 grid md:grid-cols-2 gap-8 items-center">
-          <div>
-            <h2 className="text-2xl md:text-4xl font-bold">Descarga la app y empieza hoy</h2>
-            <p className="mt-3 text-slate-300 max-w-xl">Disponible para iOS y Android. Prueba gratis por 7 días. Tu progreso se queda contigo.</p>
-            <div className="mt-6 flex flex-wrap gap-4 items-center">
-              <a href="/download/android" aria-label="Descargar en Google Play" className="hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-white/50 rounded-xl">
-                <GooglePlayBadge />
-              </a>
-              <a href="/download/ios" aria-label="Descargar en App Store" className="hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-white/50 rounded-xl">
-                <AppStoreBadge />
-              </a>
-            </div>
-            <div className="mt-4 text-xs text-slate-400">* En beta cerrada. Algunas funciones pueden variar por región.</div>
-          </div>
+         
           <div className="relative">
             <div className="absolute -inset-6 rounded-[2.5rem] opacity-30 bg-gradient-to-br from-indigo-400/40 via-sky-400/30 to-emerald-400/40 blur-2xl"/>
             <Card className="relative bg-white/5 border-white/10 rounded-2xl overflow-hidden">
